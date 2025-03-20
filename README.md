@@ -9,6 +9,6 @@
 **Program Nedir?**
 Bir sorunun bilgisayar ortamındaki çözümleri için oluşturulur. 
 
-***Programlama Nedir?***
+**Programlama Nedir?**
 Bilgisayara çeşitli görevleri yerine getirmesi için talimat vermenin yoludur.
 Programlama bilgisayara ne yapması gerektiğini söyleyen, problemlere çözümler üreten ve bu çözümleri algoritmalar ile destekleyen bir öğretme işlemidir.
