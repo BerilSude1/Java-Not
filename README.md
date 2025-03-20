@@ -7,7 +7,7 @@
 4. Java Dili
 
 **Program Nedir?**
-Bir sorunun bilgisayar ortamındaki çözümleri için oluşturulur. 
+. Bir sorunun bilgisayar ortamındaki çözümleri için oluşturulur. 
 
 **Programlama Nedir?**
 Bilgisayara çeşitli görevleri yerine getirmesi için talimat vermenin yoludur.
