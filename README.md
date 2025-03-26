@@ -41,7 +41,7 @@ Harf Duyarlılığı vardır. Büyük harf küçük harf fark eder.
 ## Java İsimlendirme Kuralları
 - Java'da isimlendirilen tüm öğeler sadece A-Z veya a-z gibi harfler, $ karakteri veya _karakteriyle başlayabilir.
 - Keywordler (yasaklı kelimeler) isimlendirmede kullanılmaz:
-- <img src="![download](https://github.com/user-attachments/assets/30a65ec2-e839-430b-9618-424bcfd0f326)" alt="Yasaklı Kelimeler" width="300" height="200">
+- ![Yasaklı Kelimeler](![download](https://github.com/user-attachments/assets/30a65ec2-e839-430b-9618-424bcfd0f326)){ width=300px height=200px }
 - **Sınıflar** için upper camel case kullanılır: **JavaSinifi**
 - **Metotlar** için lower camel case kullanılır **helloWorld**
 - **Değişkenler** için lower camel case kullanılır. **helloWorld**
