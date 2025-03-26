@@ -39,8 +39,8 @@ Harf Duyarlılığı vardır. Büyük harf küçük harf fark eder.
 - **kebap-case**: Tümü küçük harfle oluşturulur, kelimeler arasına - eklenir.
 
 ## Java İsimlendirme Kuralları
-Java'da isimlendirilen tüm öğeler sadece A-Z veya a-z gibi harfler, $ karakteri veya _karakteriyle başlayabilir.
-Keywordler yasaklı kelimeler isimlendirmede kullanılmaz.
+- Java'da isimlendirilen tüm öğeler sadece A-Z veya a-z gibi harfler, $ karakteri veya _karakteriyle başlayabilir.
+- Keywordler (yasaklı kelimeler) isimlendirmede kullanılmaz.
 - **Sınıflar** için upper camel case kullanılır: **JavaSinifi**
 - **Metotlar** için lower camel case kullanılır **helloWorld**
 - **Değişkenler** için lower camel case kullanılır. **helloWorld**
