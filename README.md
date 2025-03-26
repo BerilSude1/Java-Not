@@ -24,26 +24,26 @@ Java özel makinelere ya da işletim sistemi mimarilerine bağlı değildir. Jav
 - Gömülü Sistemler (Java2ME Embedded)
 
 
-**Java JDK (Java development Kit)**
+## Java JDK (Java development Kit)
 Java Geliştirme Kiti (JDK), JVM (Java Sanal Makinesi) ve JRE (Java Çalışma Zamanı Ortamı) ile birlikte Java programlamada kullanılan üç temel teknoloji
 paketinden biridir. JDK, geliştiricilerin JVM ve JRE tarafından çalıştırılabilen Java programları oluşturmalarına izin verir.
 
-**Java Yazım Kuralları**
+## Java Yazım Kuralları
 Türkçe karakterler kullanılmaz
 Harf Duyarlılığı vardır. Büyük harf küçük harf fark eder.
-**Sınıf Adları:** Java'da sınıf adlarının ilk harfleri büyük olmalıdır. İki kelimeyle birleştirilecek
-**Metot Adları:** Metot adları küçük harfle başlar, birden fazla kelimeyse eklenen her kelime büyük harfle başlar. 
-**camelCaseOrnek**
-**snake_case** : Kelimeler Alt tire ile birbirine bağlanır.
-**SCREAMING_SNAKE_CASE**: Genelde sabit isimlendirmede kullanılır.
-**kebap-case**: Tümü küçük harfle oluşturulur, kelimeler arasına - eklenir.
+- **Sınıf Adları:** Java'da sınıf adlarının ilk harfleri büyük olmalıdır. İki kelimeyle birleştirilecek
+- **Metot Adları:** Metot adları küçük harfle başlar, birden fazla kelimeyse eklenen her kelime büyük harfle başlar. 
+- **camelCaseOrnek**
+- **snake_case** : Kelimeler Alt tire ile birbirine bağlanır.
+- **SCREAMING_SNAKE_CASE**: Genelde sabit isimlendirmede kullanılır.
+- **kebap-case**: Tümü küçük harfle oluşturulur, kelimeler arasına - eklenir.
 
-**Java İsimlendirme Kuralları**
+## Java İsimlendirme Kuralları
 Java'da isimlendirilen tüm öğeler sadece A-Z veya a-z gibi harfler, $ karakteri veya _karakteriyle başlayabilir.
 Keywordler yasaklı kelimeler isimlendirmede kullanılmaz.
-**Sınıflar** için upper camel case kullanılır: **JavaSinifi**
-**Metotlar** için lower camel case kullanılır **helloWorld**
-**Değişkenler** için lower camel case kullanılır. **helloWorld**
+- **Sınıflar** için upper camel case kullanılır: **JavaSinifi**
+- **Metotlar** için lower camel case kullanılır **helloWorld**
+- **Değişkenler** için lower camel case kullanılır. **helloWorld**
 Sabitler için screaming snake case kullanılır.**HELLO_WORLD**
 
 
