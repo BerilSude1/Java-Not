@@ -62,6 +62,9 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 * Paketler: Java'da sınıflar paket paket düzenlenebilir, bakımı kolaylaşır, birbirleriyle çalışmaları daha temiz olur.
 * Java sınıflar üzerinde çalışan bir programlama dilidir.
 
+# Programlamaya Başlangıç
+
+
   
 *  Herhangi bir Java programı derlendikten sonra çalıştırılabiliyorsa, programın belli bir metodundan çalıştırılmaya başlanır. Bu metodun doğru yazımı nedir?
 *  public static void main(String[] args)
