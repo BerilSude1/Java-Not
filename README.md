@@ -47,6 +47,23 @@ Harf Duyarlılığı vardır. Büyük harf küçük harf fark eder.
 - **Değişkenler** için lower camel case kullanılır. **helloWorld**
 Sabitler için screaming snake case kullanılır.**HELLO_WORLD**
 
+## JAVA'DA SINIF NASIL OLUŞTURULUR - MAİN METODU ve KULLANIMI
+Java'da çalışacak bir program varsa çalışmaya main metodundan başlar. Main metodu sayesinde derleyici programın buradan başlaması gerektiğini anlar.
+Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Ancak genellikle args sözcüğü kullanılır ve bu sözcük arguments sözcüğünün kısaltmasıdır. Arguments ile ifade edilen kısım, sınıf çalıştırılırken JVM tarafından bu sınıfa verilen parametrelerdir
 
+## Proje Başlatmak İçin
+* Java dilini seç,
+* SDK seç
+* Proje Name yaz
+* Projeyi oluştur.
 
+* .idea: idenin özelliklerini tanımlar 
+* src: Projenin çalıştığı yer. 
+* Paketler: Java'da sınıflar paket paket düzenlenebilir, bakımı kolaylaşır, birbirleriyle çalışmaları daha temiz olur.
+* Java sınıflar üzerinde çalışan bir programlama dilidir.
 
+  
+*  Herhangi bir Java programı derlendikten sonra çalıştırılabiliyorsa, programın belli bir metodundan çalıştırılmaya başlanır. Bu metodun doğru yazımı nedir?
+*  public static void main(String[] args)
+
+* Intellij idesi otomatik olarak her işlemi kaydeder tekrar tekrar çalışmayı kaydetmeye gerek kalmaz.
