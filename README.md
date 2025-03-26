@@ -34,7 +34,7 @@ Harf Duyarlılığı vardır. Büyük harf küçük harf fark eder.
 - **Sınıf Adları:** Java'da sınıf adlarının ilk harfleri büyük olmalıdır. İki kelimeyle birleştirilecek
 - **Metot Adları:** Metot adları küçük harfle başlar, birden fazla kelimeyse eklenen her kelime büyük harfle başlar. 
 - **camelCaseOrnek**
-- **snake_case** : Kelimeler Alt tire ile birbirine bağlanır.
+- **snake_case** : Kelimeler Alt tire ile birbirine bağlanır. Sabit değişkenlerde kullanılır.
 - **SCREAMING_SNAKE_CASE**: Genelde sabit isimlendirmede kullanılır.
 - **kebap-case**: Tümü küçük harfle oluşturulur, kelimeler arasına - eklenir.
 
@@ -45,6 +45,7 @@ Keywordler yasaklı kelimeler isimlendirmede kullanılmaz.
 - **Metotlar** için lower camel case kullanılır **helloWorld**
 - **Değişkenler** için lower camel case kullanılır. **helloWorld**
 Sabitler için screaming snake case kullanılır.**HELLO_WORLD**
+
 
 
 
