@@ -31,7 +31,7 @@ paketinden biridir. JDK, geliştiricilerin JVM ve JRE tarafından çalıştırı
 ## Java Yazım Kuralları
 Türkçe karakterler kullanılmaz
 Harf Duyarlılığı vardır. Büyük harf küçük harf fark eder.
-- **Sınıf Adları:** Java'da sınıf adlarının ilk harfleri büyük olmalıdır. İki kelimeyle birleştirilecek
+- **Sınıf Adları:** Java'da sınıf adlarının ilk harfleri büyük olmalıdır. İki kelimeyle birleştirilecekse ikinci kelime büyük harfle başlar (upper camel case)
 - **Metot Adları:** Metot adları küçük harfle başlar, birden fazla kelimeyse eklenen her kelime büyük harfle başlar. 
 - **camelCaseOrnek**
 - **snake_case** : Kelimeler Alt tire ile birbirine bağlanır. Sabit değişkenlerde kullanılır.
@@ -64,9 +64,22 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 
 # Programlamaya Başlangıç
 
-
+* Java kodunu çalıştırmak için mutlaka bir sınıfa ihtiyaç vardır.
   
 *  Herhangi bir Java programı derlendikten sonra çalıştırılabiliyorsa, programın belli bir metodundan çalıştırılmaya başlanır. Bu metodun doğru yazımı nedir?
 *  public static void main(String[] args)
 
 * Intellij idesi otomatik olarak her işlemi kaydeder tekrar tekrar çalışmayı kaydetmeye gerek kalmaz.
+
+
+* **public class:** Herkese açık sınıftır
+
+* **package:** Giriş
+* **class:** Başlangıç
+
+* package Giris;
+* public class Baslangic{
+* public static void main (String[] args){
+* System.out.print("Merhaba Dünya !");
+*  }
+* }
