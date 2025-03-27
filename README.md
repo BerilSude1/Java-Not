@@ -103,7 +103,7 @@ Java'da Escape (Kaçış) karakterleri ile bazı özel durumlar durumlar gerçek
 \r: Kendinden önceki her şeyi siler
 
 # Yorum Satırları
-Kodun kalitesini, okunabilirliğini yükseltmek için yorum satırları kullanılır. Bu yorum satırları çıktıda görünmez. Yazılımcılar/programcılar için açıklama niteliği taşır. Kod ne işe yarıyor, kim yazmış, neler kullanılmış yazılırken gibi açıklamalar barındırır. Derleyici yorum satırını okumaz.
+Kodun kalitesini, okunabilirliğini yükseltmek için yorum satırları kullanılır. Bu yorum satırları çıktıda görünmez. programcılar için açıklama niteliği taşır. Kod ne işe yarıyor, kim yazmış, neler kullanılmış yazılırken gibi açıklamalar barındırır. Derleyici yorum satırını okumaz.
 Tavsiye olarak: Kod çok temiz yazılmalı ki yorum satırına da ihtiyaç kalmasın.
 * **Tek bir satır için:** // metin
 * **Birden fazla satır için:** /* metin */
@@ -125,5 +125,32 @@ public class AciklamaSatiriOrnegi {
         double kkok = 0;
         // burada karekök bulma algoritmasının çalıştığını kabul edelimreturn kkok;
     }
+}
+```
+# Değişkenler ve Veri Tipleri 
+**Değişkenler:** Programlamada geçici bilgileri sakladığımız, programcı tarafından belirlenen yapılardır.
+Değişkenlerin Özellikleri:
+* 1) Değişken veri tipi : Değişkenin türünü belirler (sayı, metin, ondalıklı sayı, tam sayı)
+* 2) Değişken ismi
+* 3) Değişkene ait değer
+* 4) Değişken adresi
+ **Değişken Nasıl Tanımlanır?**
+1) Değişkenin veri tipi
+2) Değişkenin ismi
+3) Atama operatörü (=) kullanıyoruz
+4) Veri / Değer yazılır.
+
+```
+package paket;
+public class Main{
+public static void main(String[] args){
+int number = 11;
+int numberTwo;
+numberTwo= 13;
+int numberThree=3 , numberFour;
+numberFour= 4;
+String numberOne = "on bir";
+System.out.print(number + numberOne); 
+}
 }
 ```
