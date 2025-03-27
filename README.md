@@ -155,6 +155,7 @@ System.out.print(number + numberOne);
 }
 ```
 # Java'daki İlkel Veri Tipleri
+Java'da değişkenlerin veri tipleri vardır. Bu tipler Java'da varsayılan olarak tanımlı gelen ilkel tipler (primitive) de olabilir yahut yazılımcıların kendi tanımladığı ilkel olmayan tipler (non-primitive) de olabilir. İlkel tipler her zaman bir değere sahiptir. İlkel olmayan tipler ise 'null' (boş) olabilir. İlkel olmayan türlerin tümü aynı boyuta sahipken ilkel veri tiplerin boyutu alacağı veri tipine bağlıdır. (Patika Dev'den alıntıdır)
 * **Tam Sayılar**
   1) Byte
   2) Short
