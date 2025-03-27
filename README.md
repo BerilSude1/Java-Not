@@ -86,6 +86,9 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 * }
 
 # Programlamaya Başlangıç
+## Genel Söz Dizimi
+![java-syntax](https://github.com/user-attachments/assets/7bb97f56-d6a6-4ba2-ac0b-0dc6d85b1fb6)
+
 * System.out.print(""); -> Ekrana yazdırma komutu.
 * System.out.println("") -> Bir alt satırda ekrana yazdırma komutu.
 
