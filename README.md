@@ -72,7 +72,9 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 * Intellij idesi otomatik olarak her işlemi kaydeder tekrar tekrar çalışmayı kaydetmeye gerek kalmaz.
 
 
-* **public class:** Herkese açık sınıftır
+ **public class:** Herkese açık sınıftır
+
+#
 
 * **package:** Giriş
 * **class:** Başlangıç
