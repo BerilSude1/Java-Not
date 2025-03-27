@@ -77,13 +77,15 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 
 * **package:** Giriş
 * **class:** Başlangıç
-
+* 
+```
 * package Giris;
 * public class Baslangic{
 * public static void main (String[] args){
 * System.out.print("Merhaba Dünya !");
 *  }
 * }
+```
 
 # Programlamaya Başlangıç
 ## Genel Söz Dizimi
@@ -99,3 +101,29 @@ Java'da Escape (Kaçış) karakterleri ile bazı özel durumlar durumlar gerçek
 
 \b: backspace: Harf harf kendinden bir önceki kelimeyi siler. Ka. tane \b kullanılırsa adedince harf silinir.
 \r: Kendinden önceki her şeyi siler
+
+# Yorum Satırları
+Kodun kalitesini, okunabilirliğini yükseltmek için yorum satırları kullanılır. Bu yorum satırları çıktıda görünmez. Yazılımcılar/programcılar için açıklama niteliği taşır. Kod ne işe yarıyor, kim yazmış, neler kullanılmış yazılırken gibi açıklamalar barındırır. Derleyici yorum satırını okumaz.
+Tavsiye olarak: Kod çok temiz yazılmalı ki yorum satırına da ihtiyaç kalmasın.
+* **Tek bir satır için:** //metin
+* **Birden fazla satır için:** /*metin*/
+* **İnfolar için:** /** @etiket metin */ 
+  Kod içi belgeleme, bu etiketleri tanıyan ve etiketlerden faydalanarak belge üreten bir aracın yardımı ile belgeye dönüştürülebilmektedir. Bu tarzda yazılan açıklama satırlarına Javadoc adı verilmektedir. Javadoc için kullanılabilecek bazı örnekler ve ne için kullanılabilecekleri aşağıda listelenmiştir:
+* ![download](https://github.com/user-attachments/assets/3352643c-d4ae-4126-b7db-bd72e3f87116)
+```
+/**
+ * @author M.Mustafa Çetindağ - 11.Nis.2021
+ */
+public class AciklamaSatiriOrnegi {
+    /**
+     * Verilen sayının karekökünü bularak döndürür.
+     * Sayının sıfırdan küçük olmadığını varsayar.
+     *
+     * @param sayi Karekökü alınacak sayı
+     * @return Sayının karekökü
+     */public double karekok(double sayi) {
+        double kkok = 0;
+        // burada karekök bulma algoritmasının çalıştığını kabul edelimreturn kkok;
+    }
+}
+```
