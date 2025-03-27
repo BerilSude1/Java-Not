@@ -41,7 +41,7 @@ Harf Duyarlılığı vardır. Büyük harf küçük harf fark eder.
 ## Java İsimlendirme Kuralları
 - Java'da isimlendirilen tüm öğeler sadece A-Z veya a-z gibi harfler, $ karakteri veya _karakteriyle başlayabilir.
 - Keywordler (yasaklı kelimeler) isimlendirmede kullanılmaz:
-- ![Yasaklı Kelimeler](![download](https://github.com/user-attachments/assets/30a65ec2-e839-430b-9618-424bcfd0f326)){ width=300px height=200px }
+- https://github.com/user-attachments/assets/30a65ec2-e839-430b-9618-424bcfd0f326
 - **Sınıflar** için upper camel case kullanılır: **JavaSinifi**
 - **Metotlar** için lower camel case kullanılır **helloWorld**
 - **Değişkenler** için lower camel case kullanılır. **helloWorld**
@@ -65,12 +65,11 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 # Programlamaya Başlangıç
 
 * Java kodunu çalıştırmak için mutlaka bir sınıfa ihtiyaç vardır.
-  
 *  Herhangi bir Java programı derlendikten sonra çalıştırılabiliyorsa, programın belli bir metodundan çalıştırılmaya başlanır. Bu metodun doğru yazımı nedir?
 *  public static void main(String[] args)
-
 * Intellij idesi otomatik olarak her işlemi kaydeder tekrar tekrar çalışmayı kaydetmeye gerek kalmaz.
 
+#
 
  **public class:** Herkese açık sınıftır
 
