@@ -154,3 +154,16 @@ System.out.print(number + numberOne);
   }
 }
 ```
+# Java'daki İlkel Veri Tipleri
+* **Tam Sayılar**
+  1) Byte
+  2) Short
+  3) Integer
+  4) Long
+* **Onladık Sayılar**
+  1) Float
+  2) Double
+* **Karakterler**
+  1) Char
+* **Mantıksal Değerler**
+  1) Boolean
