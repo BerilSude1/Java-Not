@@ -84,3 +84,12 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 * System.out.print("Merhaba Dünya !");
 *  }
 * }
+
+# Programlamaya Başlangıç
+* System.out.print(""); -> Ekrana yazdırma komutu.
+* System.out.println("") -> Bir alt satırda ekrana yazdırma komutu.
+
+# Escape Karakterler
+Java'da Escape (Kaçış) karakterleri ile bazı özel durumlar durumlar gerçekleştirilir. Kaçış karakterleri ( / ) ters eğik çizgi ile ifade edilip sonrasında yazılan karakter ile özel işleve sahip olurlar.
+![download](https://github.com/user-attachments/assets/8315fa26-fc37-487e-b644-cb4ecd93e7f8)
+
