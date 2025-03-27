@@ -91,6 +91,7 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 
 * System.out.print(""); -> Ekrana yazdırma komutu.
 * System.out.println("") -> Bir alt satırda ekrana yazdırma komutu.
+* "Sistemden. bir çıktı. bas" -> Gibi şifrelenebilir.
 
 # Escape Karakterler
 Java'da Escape (Kaçış) karakterleri ile bazı özel durumlar durumlar gerçekleştirilir. Kaçış karakterleri ( / ) ters eğik çizgi ile ifade edilip sonrasında yazılan karakter ile özel işleve sahip olurlar.
