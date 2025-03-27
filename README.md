@@ -79,12 +79,12 @@ Main metodu yazılırken, args yerine başka bir isimlendirme yapılabilir. Anca
 * **class:** Başlangıç
 * 
 ```
-* package Giris;
-* public class Baslangic{
-* public static void main (String[] args){
-* System.out.print("Merhaba Dünya !");
-*  }
-* }
+ package Giris;
+ public class Baslangic{
+ public static void main (String[] args){
+ System.out.print("Merhaba Dünya !");
+  }
+ }
 ```
 
 # Programlamaya Başlangıç
