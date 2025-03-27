@@ -105,8 +105,8 @@ Java'da Escape (Kaçış) karakterleri ile bazı özel durumlar durumlar gerçek
 # Yorum Satırları
 Kodun kalitesini, okunabilirliğini yükseltmek için yorum satırları kullanılır. Bu yorum satırları çıktıda görünmez. Yazılımcılar/programcılar için açıklama niteliği taşır. Kod ne işe yarıyor, kim yazmış, neler kullanılmış yazılırken gibi açıklamalar barındırır. Derleyici yorum satırını okumaz.
 Tavsiye olarak: Kod çok temiz yazılmalı ki yorum satırına da ihtiyaç kalmasın.
-* **Tek bir satır için:** //metin
-* **Birden fazla satır için:** /*metin*/
+* **Tek bir satır için:** // metin
+* **Birden fazla satır için:** /* metin */
 * **İnfolar için:** /** @etiket metin */ 
   Kod içi belgeleme, bu etiketleri tanıyan ve etiketlerden faydalanarak belge üreten bir aracın yardımı ile belgeye dönüştürülebilmektedir. Bu tarzda yazılan açıklama satırlarına Javadoc adı verilmektedir. Javadoc için kullanılabilecek bazı örnekler ve ne için kullanılabilecekleri aşağıda listelenmiştir:
 * ![download](https://github.com/user-attachments/assets/3352643c-d4ae-4126-b7db-bd72e3f87116)
