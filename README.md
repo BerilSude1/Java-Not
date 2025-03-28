@@ -180,7 +180,8 @@ Tam sayı veri tiplerinin tek farkı boyutlarıdır. Sondaki parantezli ifade ko
      ```
 * **Mantıksal Değerler**
   1) Boolean : true veya false değeri alır.
-  ``` boolean dogru = true;
+ ```
+  boolean dogru = true;
   boolean yanlis = false;
   System.out.println(dogru);
   System.out.println(yanlis);
