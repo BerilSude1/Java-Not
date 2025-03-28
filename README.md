@@ -173,10 +173,8 @@ Tam sayı veri tiplerinin tek farkı boyutlarıdır. Sondaki parantezli ifade ko
       * Java hassas matematiksel işlemler, örneğin sinüs kosinüs fonksiyonları, double tipi değer döndürür.
 * **Karakterler**
   1) Char: Tek bir karakterden oluşan veri tipidir. Birleşimi stringi oluşturur.
-     ```
-     char vChar = 'b';
+     ``` char vChar = 'b';
      System.out.print(vChar);
-
      char v2Char = 98;
      System.out.print(v2Char);
      ```
