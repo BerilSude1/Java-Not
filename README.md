@@ -156,15 +156,39 @@ System.out.print(number + numberOne);
 ```
 # Java'daki İlkel Veri Tipleri
 Java'da değişkenlerin veri tipleri vardır. Bu tipler Java'da varsayılan olarak tanımlı gelen ilkel tipler (primitive) de olabilir yahut yazılımcıların kendi tanımladığı ilkel olmayan tipler (non-primitive) de olabilir. İlkel tipler her zaman bir değere sahiptir. İlkel olmayan tipler ise 'null' (boş) olabilir. İlkel olmayan türlerin tümü aynı boyuta sahipken ilkel veri tiplerin boyutu alacağı veri tipine bağlıdır. (Patika Dev'den alıntıdır)
-* **Tam Sayılar**
-  1) Byte
-  2) Short
-  3) Integer
-  4) Long
+* **Tam Sayı Veri Tipleri**
+Tam sayı veri tiplerinin tek farkı boyutlarıdır. Sondaki parantezli ifade kodlamadaki syntaxıdır.
+  1) Byte :8 bit uzunluğundadır, max 127, min -128 değerleri arasındadır. (byte)
+  2) Short: 16 bit uzunluğundadır, max 32,767, min -32768 değerleri arasındadır. (short)
+  3) Integer: 32 bit uzunluğundadır, max 2,147,483,647 min -2,147,483,648 (optimize uzunluktadır) (int) 
+  4) Long: 64 bit uzunluğundadır, Max 9,223,372,036,854,775,807, min Max 9,223,372,036,854,775,808 değerleri arasındadır. (long)
+
 * **Onladık Sayılar**
-  1) Float
-  2) Double
+* Ondalıklı sayılara tam sayı yazılabilir, ondalıklı sayılar (float, double) tam sayıları ondalıklı sayıya çevirir.
+  1) Float: 32 bit boyutundadır, max 1.3*10^38, min 1.4 x 10^-45  değerleri arasındadır. (float) (ör: 3.14f -> floatın f si)
+  2) Double: 64 bit boyutundadır. max 1.8*10^308, min 4.9*10^-324 değerleri arasındadır. Üst düzey matematiksel işlemlerde kullanılır (double)
+      * Double tipi, yüksek duyarlıklı ve hassas matematiksel işlemlerde kullanılır.
+      * Float basittir : hız ve bellek.
+      * Double daha yavaş ve fazla yer kaplar.(Bu işlemler arasında milisaniye oynar)
+      * Java hassas matematiksel işlemler, örneğin sinüs kosinüs fonksiyonları, double tipi değer döndürür.
 * **Karakterler**
-  1) Char
+  1) Char: Tek bir karakterden oluşan veri tipidir. Birleşimi stringi oluşturur.
+     ```
+     char vChar = 'b';
+     System.out.print(vChar);
+
+     char v2Char = 98;
+     System.out.print(v2Char);
+     
+     ```
 * **Mantıksal Değerler**
-  1) Boolean
+  1) Boolean : true veya false değeri alır.
+     
+     ```
+  * boolean dogru = true;
+  * boolean yanlis = false;
+  * System.out.println(dogru);
+  * System.out.println(yanlis);
+     ```
+  
+  
