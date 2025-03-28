@@ -185,7 +185,8 @@ Tam sayı veri tiplerinin tek farkı boyutlarıdır. Sondaki parantezli ifade ko
   boolean yanlis = false;
   System.out.println(dogru);
   System.out.println(yanlis);
-     ```
+```
+
   # Patika Dev: 
 ## Char
 * Java'da karakter değişkenleri saklamak için Char kullanılır. Char veri tipleri birleşerek String Sınıfından bir yapıya dönüşür.
